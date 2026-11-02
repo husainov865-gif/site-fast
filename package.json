@@ -1,0 +1,14 @@
+{
+  "name": "site-fast-toolkit",
+  "version": "0.5.2",
+  "private": true,
+  "description": "Tools for the site-fast skill; install dependencies in a site project",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "playwright": "1.64.1",
+    "postcss": "8.5.32"
+  }
+}
