@@ -1,0 +1,23 @@
+# Replace PROJECT, site-aidar, and /usr/bin/node after inspecting the server.
+[Unit]
+Description=PROJECT website form service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=site-aidar
+Group=site-aidar
+WorkingDirectory=/var/www/PROJECT/current/service
+EnvironmentFile=/etc/site-aidar/PROJECT.env
+ExecStart=/usr/bin/node /var/www/PROJECT/current/service/server.mjs
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

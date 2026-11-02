@@ -1,0 +1,4 @@
+interface:
+  display_name: "site-fast"
+  short_description: "Сайты по брифу и референсам: макет, правки, запуск"
+  default_prompt: "Используй $site-fast, прочитай состояние проекта и сам веди меня по следующему этапу."

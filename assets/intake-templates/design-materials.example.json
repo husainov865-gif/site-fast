@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "page-structure",
+      "kind": "structure",
+      "scope": "страницы и блоки",
+      "required": true,
+      "status": "missing"
+    },
+    {
+      "id": "page-copy",
+      "kind": "content",
+      "scope": "тексты и факты",
+      "required": true,
+      "status": "missing"
+    },
+    {
+      "id": "visual-direction",
+      "kind": "brand",
+      "scope": "цвета, типографика, оформление",
+      "required": true,
+      "status": "missing"
+    },
+    {
+      "id": "brand-logo",
+      "kind": "logo",
+      "scope": "шапка",
+      "required": false,
+      "status": "missing"
+    },
+    {
+      "id": "section-photos",
+      "kind": "photo",
+      "scope": "нужные блоки",
+      "required": false,
+      "status": "missing"
+    },
+    {
+      "id": "visual-reference",
+      "kind": "reference",
+      "scope": "визуальные ориентиры",
+      "required": false,
+      "status": "missing"
+    },
+    {
+      "id": "contact-details",
+      "kind": "contacts",
+      "scope": "CTA и контакты",
+      "required": false,
+      "status": "missing"
+    }
+  ],
+  "reviewStage": "not-reviewed",
+  "startAuthorization": null,
+  "reviewedAt": null
+}

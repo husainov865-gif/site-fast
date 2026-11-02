@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "project": null,
+  "server": null,
+  "releaseId": null,
+  "publicRoot": "release/public",
+  "manifestSha256": null,
+  "authorization": {
+    "reference": null
+  },
+  "forms": null,
+  "dns": {
+    "authoritativeEvidence": null,
+    "recursiveStatus": "not_checked"
+  },
+  "tls": {
+    "renewalEvidence": null
+  },
+  "mailDelivery": {
+    "status": "not_checked",
+    "evidence": null
+  },
+  "stages": {
+    "permission": {
+      "status": "not_checked",
+      "releaseSha256": null,
+      "evidence": []
+    },
+    "access": {
+      "status": "not_checked",
+      "releaseSha256": null,
+      "evidence": []
+    },
+    "inspection": {
+      "status": "not_checked",
+      "releaseSha256": null,
+      "evidence": []
+    },
+    "mail": {
+      "status": "not_checked",
+      "releaseSha256": null,
+      "evidence": []
+    },
+    "candidate": {
+      "status": "not_checked",
+      "releaseSha256": null,
+      "evidence": []
+    },
+    "private": {
+      "status": "not_checked",
+      "releaseSha256": null,
+      "evidence": []
+    },
+    "activation": {
+      "status": "not_checked",
+      "releaseSha256": null,
+      "evidence": []
+    },
+    "public": {
+      "status": "not_checked",
+      "releaseSha256": null,
+      "evidence": []
+    },
+    "handoff": {
+      "status": "not_checked",
+      "releaseSha256": null,
+      "evidence": []
+    }
+  }
+}
